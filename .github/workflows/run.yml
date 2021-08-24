@@ -52,8 +52,8 @@ jobs:
         run: |
           zsh random_cron.sh
           git_pwd='${{ secrets.GIT_PWD }}'
-          git config --global user.name "xunichanghuan"
-          git config --global user.email "zhpjake@vip.qq.com"
+          git config --global user.name "deviljinsuo"
+          git config --global user.email "deviljinsuo@gmail.com"
           git add .
           git commit -m '重置下次刷新时间'
           git remote set-url origin http://deviljinsuo:${git_pwd}@github.com/deviljinsuo/mimotion.git
